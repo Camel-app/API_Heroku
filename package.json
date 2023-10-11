@@ -30,6 +30,7 @@
   },
   "main": "server.ts",
   "scripts": {
+    "start": "nodemon server.ts",
     "dev": "nodemon server.ts",
     "build": "rm -rf build/ && tsc",
     "prepare": "husky install"
