@@ -1,4 +1,7 @@
 {
+  "engines": {
+    "node": "16.16.0"
+  },  
   "dependencies": {
     "@types/axios": "^0.14.0",
     "@types/bcrypt": "^5.0.0",
@@ -41,5 +44,17 @@
       "pre-push": "npm run lint"
     }
   },
-  "version": "0.0.1"
+  "version": "0.0.1",
+  "name": "apiheroku",
+  "description": "## Introduction",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Camel-app/API_Heroku.git"
+  },
+  "author": "Julius Fenn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Camel-app/API_Heroku/issues"
+  },
+  "homepage": "https://github.com/Camel-app/API_Heroku#readme"
 }
